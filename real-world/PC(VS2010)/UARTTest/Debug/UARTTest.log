@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  Com.cpp
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\com.cpp(216): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\com.cpp(208): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h(64): note: see declaration of '_itow'
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\com.cpp(209): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(100): note: see declaration of 'wcscat'
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\com.cpp(268): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  UARTTest.cpp
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\uarttest.cpp(57): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\uarttest.cpp(55): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(476): note: see declaration of 'ctime'
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\uarttest.cpp(56): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(476): note: see declaration of 'ctime'
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\uarttest.cpp(72): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+  c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\uarttest.cpp(72): note: consider using '%hhd' in the format string
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\uarttest.cpp(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\zoro\desktop\bebop\sample code\pc(vs2010)\uarttest\uarttest.cpp(72): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+  Generating Code...
+  UARTTest.vcxproj -> C:\Users\zoro\Desktop\bebop\Sample Code\PC(VS2010)\Debug\UARTTest.exe
