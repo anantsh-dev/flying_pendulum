@@ -9,7 +9,7 @@
 
 import vrep
 
-print ('Program started')
+print ('Program started now')
 vrep.simxFinish(-1) # just in case, close all opened connections
 clientID=vrep.simxStart('127.0.0.1',19997,True,True,-500000,5) # Connect to V-REP, set a very large time-out for blocking commands
 if clientID!=-1:
