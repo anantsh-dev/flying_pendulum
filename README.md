@@ -19,6 +19,7 @@ python3 pwndulum.py
 * Import the PC(VS2010) folder as a project in Visual Studio.
 * Run the project and it starts writing the readings to a text file - angles.txt
 * Install python3 libraries required to run bebop.py and use use this command to start the training:
+
 ```
 python3 bebop.py
 ```
