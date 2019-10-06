@@ -8,10 +8,10 @@ The simulation code run on top of V-REP and the real-world training has been don
 * Install V-REP
 * Import the pendulum.ttt scene in V-REP.
 * Check the port on which the V-REP Server is running and change accordingly in the pendulum.py file.
-* V-REP import files are already present in the folder, you can replace these files from your V-REP installation if it causes some error.
+* V-REP import files are already present in the folder, you can replace these files from your V-REP installation if it causes some error .
 * Install python3 libraries required to run pendulum.py and then use this command to start the training:
 ```
-python3 pwndulum.py
+python3 pwndulum.py 
 ```
 
 ### Real-World
@@ -20,6 +20,6 @@ python3 pwndulum.py
 * Run the project and it starts writing the readings to a text file - angles.txt
 * Install python3 libraries required to run bebop.py and use use this command to start the training:
 ```
-python3 bebop.py
+python3 bebop.py  
 ```
 
